@@ -39,6 +39,29 @@ function fetchGlossaryWords(letter) {
     fetchGlossaryWords('A'); // Automatically load words for "A" initially
   });
 
+  /*--------------------------------------------------------------
+# Alrt
+--------------------------------------------------------------*/
+
+  // Get all the cards
+// const card1 = document.getElementById('card1');
+// const card2 = document.getElementById('card2');
+// const card3 = document.getElementById('card3');
+
+// // Add event listeners to each card
+// card1.addEventListener('mouseover', function() {
+//   alert('Aari: Aari is a handheld wood saw used for cutting wood. Aara is the machine tool used for cutting wood into panels or beams.');
+// });
+
+// card2.addEventListener('mouseover', function() {
+//   alert('Andaaza: Approximation used by experienced masons by assessing quality, texture, weight, and sound.');
+// });
+
+// card3.addEventListener('mouseover', function() {
+//   alert('Balay: Main beam support is known as balay. The beam is wider in width than the column beneath it.');
+// });
+
+
 /*--------------------------------------------------------------
 # Archive service
 --------------------------------------------------------------*/ 
@@ -115,3 +138,5 @@ function displayFileDetails(files) {
 
 // Fetch services and populate the page when the document is ready
 document.addEventListener('DOMContentLoaded', fetchServices);
+
+
